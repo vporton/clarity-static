@@ -1,0 +1,9 @@
+{
+  "name": "clarity-static",
+  "version": "0.0.1",
+  "description": "Clarity static code analyzer",
+  "main": "index.js",
+  "repository": "git@github.com:vporton/clarity-static.git",
+  "author": "Victor Porton <porton@narod.ru>",
+  "license": "GPLv3"
+}
