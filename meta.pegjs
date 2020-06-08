@@ -2,7 +2,7 @@
     = Space? List Space?
 
 List
-    = "(" Space? (Element &Space)* Element? Space? ")"
+    = "(" Space? (Element Space)* Element? Space? ")"
 
 Element
     = ClarityName / Int / Uint / Bool / List / Placeholder
