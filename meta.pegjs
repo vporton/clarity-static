@@ -1,5 +1,5 @@
-Program
-    = &Space? List &Space?
+ Program
+    = Space? List Space?
 
 List
     = "(" &Space? (Element &Space)* Element? &Space? ")"
