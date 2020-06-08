@@ -2,7 +2,7 @@ Program
     = &Space? List &Space?
 
 List
-    = "(" &Space? (Element &Space?)* ")"
+    = "(" &Space? (Element &Space)* Element? &Space? ")"
 
 Element
     = ClarityName / Int / Uint / Bool / List
@@ -18,3 +18,6 @@ Uint
 
 Bool
     = "true" / "false"
+
+Space
+    = ";;"[^\n]* / [ \n\t]+
