@@ -8,7 +8,7 @@ Element
     = ClarityName / Int / Uint / Bool / List / Placeholder
 
 ClarityName
-    = [a-zA-Z]([a-zA-Z0-9]/[-_!?+<>=/*])*/[-+=/*]/[<>]"="?
+    = [.a-zA-Z]([.a-zA-Z0-9]/[-_!?+<>=/*])*/[-+=/*]/[<>]"="?
 
 Int
     = [0-9]+
