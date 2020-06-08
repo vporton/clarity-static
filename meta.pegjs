@@ -5,7 +5,7 @@ List
     = "(" &Space? (Element &Space)* Element? &Space? ")"
 
 Element
-    = ClarityName / Int / Uint / Bool / List
+    = ClarityName / Int / Uint / Bool / List / Placeholder
 
 ClarityName
     = [a-zA-Z]([a-zA-Z0-9]/[-_!?+<>=/*])*/[-+=/*]/[<>]"="?
@@ -21,3 +21,7 @@ Bool
 
 Space
     = ";;"[^\n]* / [ \n\t]+
+
+// My extension
+Placeholder
+    = "#"
