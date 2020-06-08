@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:vporton/clarity-static.git",
   "author": "Victor Porton <porton@narod.ru>",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "pegjs": "^0.10.0"
+  }
 }
