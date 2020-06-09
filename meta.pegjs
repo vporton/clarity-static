@@ -1,7 +1,7 @@
 S = ws? (form ws?)*
 form = list / record / atom
-list = "(" ws? (form ws)* form ws? ")"
-record = '{' ws? (pair ',' ws)* pair ','? ws? '}'
+list = "(" ws? form (ws form)* ws? ")"
+record = '{' ws? pair (ws? ',' ws pair)* ','? ws? '}'
 pair = symbol ':' ws form 
 atom = literal / symbol 
 literal  =  number / string / principal / identifier
